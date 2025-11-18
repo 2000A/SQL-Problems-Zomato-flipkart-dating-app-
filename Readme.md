@@ -7,7 +7,8 @@ Problem 1: learnings
 
 -> Learned CTE use case : ⭐ To calculate two separate aggregated results and then use them together in a final query.
 And same problem 1 can be solved using subquery
-SELECT
+
+```SELECT
     o.customer_id,
     o.TotalOrders,
     r.TotalRating
